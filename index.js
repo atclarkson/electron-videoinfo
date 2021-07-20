@@ -20,3 +20,5 @@ app.on('ready', () => {
   })
   mainWindow.loadURL(`file://${__dirname}/index.html`)
 })
+
+ipcMain.on('video:submit', (path) => {})
